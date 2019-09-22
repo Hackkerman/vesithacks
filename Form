@@ -1,0 +1,51 @@
+<form action="data.java">
+  <div class="container">
+    <h1>Pre-Booking of Auditorium</h1>
+    <p>Please fill in this form to book the auditorium</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <hr>
+    
+    <label for="date"><b>Select Date:</b></label>
+
+    <label for="day"> Day </label>
+    <input type="text" placeholder="Day" name="day" required>
+     Month
+    <select name="month">
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+    </select>
+    <hr>
+    
+    <label for="time"><b>Select time slot</b></label>
+    From
+    <select name="From">
+    <option value="1">08 am</option>
+    <option value="2">09 am</option>
+    <option value="3">10 am</option>
+    </select>
+
+     To
+    <select name="To">
+    <option value="2">09 am</option>
+    <option value="3">10 am</option>
+    <option value="4">11 am</option>
+    </select>
+    <hr>
+
+    
+    <button type="submit" class="checkbtn">Check Availability</button>
+  </div>
+</form>
