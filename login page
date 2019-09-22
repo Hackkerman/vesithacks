@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>My title</title>
+
+<script type="text/javascript">
+
+function redirect()
+{
+window.location("class.html");
+
+</script>
+</head>
+
+<body>
+<div class="container">
+<h1>Pre-booking of auditorium</h1>
+<h2>login</h2>
+<br>
+<label for="email"<b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" required>
+<br>
+<br>
+<button name="redirect" onclick="redirect()">Enter</button>
+
+</body>
+</html>
