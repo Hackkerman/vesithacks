@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Booking</title>
+<script>
+
+</script>
+</head>
+
+<body>
+<p>Please select a classroom</p>
+<input type="radio" name="classroom" value="auditorium">AUDITORIUM<br>
+<input type="radio" name="classroom" value="B31">B31<br>
+<input type="radio" name="classroom" value="B41">B41<br>
+<input type="radio" name="classroom" value="B51">B51<br>
+
+<p>Please enter a day</p>
+<input type="radio" name="day" value="1">1<br>
+<input type="radio" name="day" value="2">2<br>
+<input type="radio" name="day" value="3">3<br>
+<input type="radio" name="day" value="4">4<br>
+<input type="radio" name="day" value="5">5<br>
+<input type="radio" name="day" value="6">6<br>
+<input type="radio" name="day" value="7">7<br>
+
+<button>CHECK AVAILABILITY</button>
+</body>
+</html>
