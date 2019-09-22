@@ -1,3 +1,14 @@
+<html>
+<head>
+<title><\title>
+<script>
+  function f1()
+  {
+     
+  }
+
+<\head>
+<body>
 <form action="data.java">
   <div class="container">
     <h1>Pre-Booking of Auditorium</h1>
@@ -47,6 +58,8 @@
     <hr>
 
     
-    <button type="submit" class="checkbtn">Check Availability</button>
+    <button onclick="fn1" type="submit" class="checkbtn">Check Availability</button>
   </div>
 </form>
+</body>
+</html>
