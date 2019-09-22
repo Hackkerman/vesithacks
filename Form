@@ -7,6 +7,7 @@
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
     <hr>
+    <br>
     
     <label for="date"><b>Select Date:</b></label>
 
