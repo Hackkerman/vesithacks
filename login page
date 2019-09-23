@@ -6,8 +6,8 @@
 
 function redirect()
 {
-window.location("class.html");
-
+window.location.assign("class.html");
+}
 </script>
 </head>
 
