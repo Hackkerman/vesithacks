@@ -1,27 +1,56 @@
 <html>
 <head>
-<title>class</title>
+<title>Booking</title>
 <script>
+function goto()
+{
+var rows=4;
+var cols=7;
+var arr = new Array(rows);
+for(var i=0;i<rows;i++)
+{
+arr[i] = new Array(cols);
+}
+for(var i=0;i<rows;i++)
+{
+for(var j=0;j<cols;j++)
+{
+arr[i][j]="false";
+}
+}
+var a = document.getElementById('class').value;
+var b = document.getElementById('days').value;
 
+if(arr[a][b]=="false")
+{
+document.write("room is available");
+}
+else
+{
+document.write("room is not available");
+}
+}
 </script>
 </head>
 
 <body>
 <p>Please select a classroom</p>
-<input type="radio" name="classroom" value="auditorium">AUDITORIUM<br>
-<input type="radio" name="classroom" value="B31">B31<br>
-<input type="radio" name="classroom" value="B41">B41<br>
-<input type="radio" name="classroom" value="B51">B51<br>
+<div id="class">
+<input type="radio" id="0" name="classroom" value="0">AUDITORIUM<br>
+<input type="radio" id="1" name="classroom" value="1">B31<br>
+<input type="radio" id="2" name="classroom" value="2">B41<br>
+<input type="radio" id="3" name="classroom" value="3">B51<br>
+</div>
 
-<p>Please enter a day</p>
-<input type="radio" name="day" value="1">1<br>
-<input type="radio" name="day" value="2">2<br>
-<input type="radio" name="day" value="3">3<br>
-<input type="radio" name="day" value="4">4<br>
-<input type="radio" name="day" value="5">5<br>
-<input type="radio" name="day" value="6">6<br>
-<input type="radio" name="day" value="7">7<br>
+<p>please select a day</p>
+<div= id="days">
+<input type="radio" id=0" name="day" value="0">1<br>
+<input type="radio" id="1" name="day" value="1">2<br>
+<input type="radio" id="2" name="day" value="2">3<br>
+<input type="radio" id="3" name="day" value="3">4<br>
+<input type="radio" id="4" name="day" value="4">5<br>
+<input type="radio" id="5" name="day" value="5">6<br>
+<input type="radio" id="6" name="day" value="6">7<br>
+</div>
 
-<button>CHECK AVAILABILITY</button>
-</body>
-</html>
+<button name="goto" onclick="goto()">CHECK AVAILABILITY</button>
